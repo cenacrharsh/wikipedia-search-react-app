@@ -1,5 +1,11 @@
+import UrlValidator from "./components/Search/Search";
+
 function App() {
-  return <div className="App">Wiki Search</div>;
+  return (
+    <div className="main">
+      <UrlValidator />
+    </div>
+  );
 }
 
 export default App;
